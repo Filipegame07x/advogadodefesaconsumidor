@@ -7,6 +7,7 @@ import FAQ from './sections/FAQ';
 import Footer from './sections/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import LaserDivider from './components/LaserDivider';
+import Office from './sections/Office';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Features />
         <LaserDivider />
         <About />
+        <Office />
         <FAQ />
       </main>
       <Footer />
