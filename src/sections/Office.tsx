@@ -59,10 +59,12 @@ const Office = () => {
             style={{ position: 'relative' }}
           >
             <div style={{
+              border: '2px solid var(--accent)',
               borderRadius: '24px',
-              overflow: 'hidden',
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 20px 40px rgba(0,0,0,0.5)'
+              padding: '1rem',
+              position: 'relative',
+              zIndex: 1,
+              backgroundColor: '#0a0a0a'
             }}>
               <img 
                 src={officeImg} 
@@ -70,10 +72,22 @@ const Office = () => {
                 style={{ 
                   width: '100%', 
                   height: 'auto', 
-                  display: 'block'
+                  display: 'block',
+                  borderRadius: '16px'
                 }} 
               />
             </div>
+            {/* Decorative corner element */}
+            <div style={{
+              position: 'absolute',
+              top: '-15px',
+              right: '-15px',
+              width: '80px',
+              height: '80px',
+              borderRight: '4px solid var(--accent)',
+              borderTop: '4px solid var(--accent)',
+              zIndex: 0
+            }} />
             {/* Background accent glow */}
             <div style={{
               position: 'absolute',
