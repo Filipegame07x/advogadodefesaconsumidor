@@ -129,10 +129,11 @@ const Hero = () => {
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 992px) {
-          .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; text-align: center; }
-          .hero-btns { justify-content: center; flex-wrap: wrap; }
-          .hero h1 { font-size: 2.2rem !important; }
-          .hero-desc { font-size: 1.1rem !important; margin-bottom: 2rem !important; }
+          .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+          .hero-btns { justify-content: flex-start; flex-wrap: wrap; }
+          .hero h1 { font-size: 2.2rem !important; text-align: left; }
+          .hero-desc { font-size: 1.1rem !important; margin-bottom: 2rem !important; text-align: left; }
+          .hero .hero-grid > div:first-child { text-align: left; display: flex; flexDirection: column; align-items: flex-start; }
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
