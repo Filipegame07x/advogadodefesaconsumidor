@@ -2,15 +2,12 @@ import { motion } from 'framer-motion';
 import { 
   ShieldAlert, 
   CreditCard, 
-  Ban, 
   SearchX, 
   TrendingDown, 
   HandCoins, 
   LockKeyhole,
   Briefcase,
-  Gavel,
-  Landmark,
-  Book
+  Gavel
 } from 'lucide-react';
 import Decoration from '../components/Decoration';
 
