@@ -129,16 +129,42 @@ const Hero = () => {
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 992px) {
-          .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
-          .hero-btns { justify-content: flex-start; flex-wrap: wrap; }
-          .hero h1 { font-size: 2.2rem !important; text-align: left; }
-          .hero-desc { font-size: 1.1rem !important; margin-bottom: 2rem !important; text-align: left; }
-          .hero .hero-grid > div:first-child { text-align: left; display: flex; flexDirection: column; align-items: flex-start; }
+          .hero-grid { 
+            grid-template-columns: 1fr !important; 
+            gap: 2rem !important; 
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            text-align: left !important;
+          }
+          .hero-btns { 
+            justify-content: flex-start !important; 
+            flex-wrap: wrap; 
+            width: 100%;
+          }
+          .hero h1 { 
+            font-size: 2.2rem !important; 
+            text-align: left !important;
+            width: 100%;
+          }
+          .hero-desc { 
+            font-size: 1.1rem !important; 
+            margin-bottom: 2rem !important; 
+            text-align: left !important;
+            width: 100%;
+          }
+          .hero .hero-grid > div { 
+            width: 100% !important;
+            text-align: left !important; 
+            display: flex !important; 
+            flex-direction: column !important; 
+            align-items: flex-start !important; 
+          }
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
           .hero h1 { font-size: 1.8rem !important; }
-          .hero-btns .btn { width: 100%; }
+          .hero-btns .btn { width: 100%; justify-content: center; }
         }
       `}} />
     </section>
