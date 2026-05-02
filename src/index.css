@@ -40,6 +40,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (min-width: 1024px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
 .app {
   position: relative;
   overflow-x: hidden;
