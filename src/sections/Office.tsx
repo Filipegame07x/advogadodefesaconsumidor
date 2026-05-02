@@ -4,7 +4,7 @@ import officeImg from '../assets/escritorio.jpg';
 const Office = () => {
   return (
     <section style={{ backgroundColor: '#000000', padding: '0' }}>
-      <div style={{ position: 'relative', height: '600px', overflow: 'hidden' }}>
+      <div style={{ position: 'relative', height: '650px', overflow: 'hidden' }}>
         <img 
           src={officeImg} 
           alt="Nosso Escritório" 
@@ -12,7 +12,8 @@ const Office = () => {
             width: '100%', 
             height: '100%', 
             objectFit: 'cover', 
-            opacity: 0.4 
+            objectPosition: 'center',
+            opacity: 0.7 
           }} 
         />
         <div style={{
@@ -21,7 +22,7 @@ const Office = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          background: 'linear-gradient(to bottom, #000000, transparent, #000000)',
+          background: 'linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.8) 100%)',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
