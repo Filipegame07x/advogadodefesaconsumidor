@@ -129,9 +129,14 @@ const Hero = () => {
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 992px) {
+          .hero { 
+            padding-top: 140px !important; 
+            min-height: auto !important;
+            padding-bottom: 4rem !important;
+          }
           .hero-grid { 
             grid-template-columns: 1fr !important; 
-            gap: 2rem !important; 
+            gap: 2.5rem !important; 
             display: flex !important;
             flex-direction: column !important;
             align-items: flex-start !important;
@@ -141,17 +146,21 @@ const Hero = () => {
             justify-content: flex-start !important; 
             flex-wrap: wrap; 
             width: 100%;
+            gap: 1rem !important;
           }
           .hero h1 { 
-            font-size: 2.2rem !important; 
+            font-size: 2.4rem !important; 
+            line-height: 1.2 !important;
             text-align: left !important;
             width: 100%;
+            margin-bottom: 1.5rem !important;
           }
           .hero-desc { 
-            font-size: 1.1rem !important; 
-            margin-bottom: 2rem !important; 
+            font-size: 1.15rem !important; 
+            margin-bottom: 2.5rem !important; 
             text-align: left !important;
             width: 100%;
+            line-height: 1.5 !important;
           }
           .hero .hero-grid > div { 
             width: 100% !important;
@@ -163,7 +172,8 @@ const Hero = () => {
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
-          .hero h1 { font-size: 1.8rem !important; }
+          .hero { padding-top: 120px !important; }
+          .hero h1 { font-size: 2rem !important; }
           .hero-btns .btn { width: 100%; justify-content: center; }
         }
       `}} />
