@@ -66,8 +66,8 @@ const Hero = () => {
               color: 'var(--text-muted)', 
               marginBottom: '2.5rem',
               maxWidth: '600px'
-            }}>
-              Conte com um advogado especialista para analisar seu caso e orientar você com segurança jurídica. Proteja seu patrimônio e seus direitos contra abusos das instituições financeiras.
+            }} className="hero-desc">
+              Conte com um advogado especialista para garantir seus direitos com segurança jurídica. <span className="mobile-hide">Proteja seu patrimônio contra abusos das instituições financeiras.</span>
             </p>
             
             <div style={{ display: 'flex', gap: '1rem' }} className="hero-btns">
@@ -131,7 +131,13 @@ const Hero = () => {
         @media (max-width: 992px) {
           .hero-grid { grid-template-columns: 1fr !important; gap: 3rem !important; text-align: center; }
           .hero-btns { justify-content: center; flex-wrap: wrap; }
-          h1 { font-size: 2.5rem !important; }
+          .hero h1 { font-size: 2.2rem !important; }
+          .hero-desc { font-size: 1.1rem !important; margin-bottom: 2rem !important; }
+          .mobile-hide { display: none; }
+        }
+        @media (max-width: 480px) {
+          .hero h1 { font-size: 1.8rem !important; }
+          .hero-btns .btn { width: 100%; }
         }
       `}} />
     </section>
