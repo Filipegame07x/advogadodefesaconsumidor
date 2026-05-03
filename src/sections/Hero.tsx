@@ -118,12 +118,13 @@ const Hero = () => {
             </div>
             
             {/* Experience Badge */}
-            <div className="glass" style={{
+            <div className="glass experience-badge" style={{
               position: 'absolute',
               top: '10%',
               left: '-10%',
               padding: '1rem',
-              textAlign: 'center'
+              textAlign: 'center',
+              zIndex: 10
             }}>
               <p style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--accent)' }}>20+</p>
               <p style={{ fontSize: '0.7rem', textTransform: 'uppercase' }}>Anos de<br/>Experiência</p>
@@ -174,6 +175,7 @@ const Hero = () => {
             flex-direction: column !important; 
             align-items: flex-start !important; 
           }
+          .experience-badge { left: 1rem !important; top: 5% !important; }
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
