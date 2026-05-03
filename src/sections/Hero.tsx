@@ -175,7 +175,13 @@ const Hero = () => {
             flex-direction: column !important; 
             align-items: flex-start !important; 
           }
-          .experience-badge { left: 1rem !important; top: 5% !important; }
+          .experience-badge { 
+            left: 1rem !important; 
+            top: 5% !important; 
+            padding: 0.6rem !important;
+          }
+          .experience-badge p:first-child { font-size: 1.1rem !important; }
+          .experience-badge p:last-child { font-size: 0.6rem !important; }
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
