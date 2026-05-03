@@ -45,15 +45,20 @@ const Hero = () => {
             <div style={{ 
               display: 'inline-flex', 
               alignItems: 'center', 
-              gap: '0.5rem', 
+              gap: '0.6rem', 
               color: 'var(--accent)',
-              marginBottom: '1rem',
-              fontSize: '0.9rem',
-              fontWeight: 600,
+              marginBottom: '2rem',
+              fontSize: '0.75rem',
+              fontWeight: 700,
               textTransform: 'uppercase',
-              letterSpacing: '2px'
+              letterSpacing: '2px',
+              backgroundColor: 'rgba(255, 204, 0, 0.08)',
+              padding: '0.6rem 1.2rem',
+              borderRadius: '100px',
+              border: '1px solid rgba(255, 204, 0, 0.2)',
+              backdropFilter: 'blur(4px)'
             }}>
-              <ShieldCheck size={18} />
+              <ShieldCheck size={16} />
               Defesa do Consumidor Bancário
             </div>
             
