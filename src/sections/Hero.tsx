@@ -11,7 +11,7 @@ const Hero = () => {
       alignItems: 'center',
       position: 'relative',
       overflow: 'hidden',
-      paddingTop: '100px'
+      paddingTop: '120px'
     }}>
       {/* Background Decor & Spotlight */}
       <div style={{
@@ -136,7 +136,7 @@ const Hero = () => {
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 992px) {
           .hero { 
-            padding-top: 140px !important; 
+            padding-top: 170px !important; 
             min-height: auto !important;
             padding-bottom: 4rem !important;
           }
@@ -179,7 +179,7 @@ const Hero = () => {
           .mobile-hide { display: none; }
         }
         @media (max-width: 480px) {
-          .hero { padding-top: 120px !important; }
+          .hero { padding-top: 150px !important; }
           .hero h1 { font-size: 2rem !important; }
           .hero-btns .btn { width: 100%; justify-content: center; }
         }
