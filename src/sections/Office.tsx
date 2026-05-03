@@ -106,9 +106,17 @@ const Office = () => {
 
       <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 992px) {
-          .office-grid { grid-template-columns: 1fr !important; gap: 3rem !important; text-align: center; }
-          .office-grid div[style*="display: inline-block"] { margin: 0 auto 1.5rem !important; }
-          .office-grid div[style*="display: flex"] { justify-content: center; }
+          .office-grid { 
+            grid-template-columns: 1fr !important; 
+            gap: 3rem !important; 
+            text-align: left !important; 
+          }
+          .office-grid div[style*="display: inline-block"] { 
+            margin: 0 0 1.5rem !important; 
+          }
+          .office-grid div[style*="display: flex"] { 
+            justify-content: flex-start !important; 
+          }
         }
       `}} />
     </section>
