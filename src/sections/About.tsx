@@ -53,7 +53,10 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Quem é Audeson Costa</h2>
+            <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>
+              Quem é <br className="mobile-only" /> 
+              <span style={{ color: 'var(--accent)' }}>Audeson Costa</span>
+            </h2>
             
             <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', color: 'var(--text-main)' }}>
               Advogado desde 2005 <strong>(OAB/MA 11.417)</strong>, com atuação focada em Direito do Consumidor Bancário, auxiliando clientes em situações envolvendo abusos e irregularidades praticadas por instituições financeiras.
@@ -107,8 +110,11 @@ const About = () => {
       </div>
 
       <style dangerouslySetInnerHTML={{ __html: `
+        .mobile-only { display: none; }
         @media (max-width: 992px) {
           .about-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+          .mobile-only { display: block; }
+          h2 { font-size: 2.2rem !important; line-height: 1.2; }
         }
       `}} />
     </section>
