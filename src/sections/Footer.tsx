@@ -21,13 +21,15 @@ const Footer = () => {
         }}>
           {/* Brand & Mission */}
           <div>
-            <img src={logo} alt="Logo Audeson Costa" style={{ 
+            <img src={logo} alt="Logo Carvalho e Costa Advogados" style={{ 
               width: '120px', 
               marginBottom: '1.5rem',
               borderRadius: '8px'
             }} />
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-              Defesa especializada em Direito do Consumidor Bancário. Compromisso com a ética, transparência e segurança jurídica desde 2005.
+              Carvalho e Costa Advogados<br/>
+              OAB/MA 11.417<br/>
+              Atendimento mediante agendamento
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
               <a href="https://instagram.com/audeson.adv" target="_blank" rel="noreferrer" className="btn btn-outline" style={{ padding: '0.5rem', borderRadius: '50%' }}>
@@ -55,13 +57,6 @@ const Footer = () => {
                   Rua Sebastião Barbosa
                 </span>
               </li>
-              <li style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start', color: 'var(--text-muted)' }}>
-                <MapPin size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
-                <span>
-                  <strong>Mata Roma – MA (Filial):</strong><br/>
-                  Centro
-                </span>
-              </li>
             </ul>
           </div>
 
@@ -83,10 +78,10 @@ const Footer = () => {
           textAlign: 'center'
         }}>
           <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '1.5rem', maxWidth: '800px', margin: '0 auto 1.5rem' }}>
-            As informações desta página têm caráter informativo e não substituem consulta jurídica individualizada. Cada caso será analisado conforme a documentação apresentada.
+            “As informações disponibilizadas nesta página possuem caráter exclusivamente informativo, nos termos do Provimento nº 205/2021 do Conselho Federal da OAB, não representando promessa de resultado.”
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
-            © {new Date().getFullYear()} – Audeson Costa – OAB/MA 11.417. Desenvolvido com excelência.
+            © {new Date().getFullYear()} – Carvalho e Costa Advogados.
           </p>
         </div>
       </div>

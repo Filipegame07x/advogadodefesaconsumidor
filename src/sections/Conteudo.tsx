@@ -5,30 +5,30 @@ import Decoration from '../components/Decoration';
 
 const faqs = [
   {
-    q: "É possível contestar descontos bancários?",
-    a: "Situações envolvendo descontos não reconhecidos podem ser submetidas à análise jurídica."
+    q: "O que é o SCR do Banco Central?",
+    a: "O Sistema de Informações de Crédito (SCR) reúne informações utilizadas pelas instituições financeiras na análise de risco e concessão de crédito."
   },
   {
-    q: "O SCR interfere na concessão de crédito?",
-    a: "Instituições financeiras utilizam registros financeiros para análise de risco."
+    q: "O banco pode ser responsabilizado por fraude?",
+    a: "A responsabilidade dependerá das circunstâncias do caso concreto, da análise da prestação do serviço e das provas existentes."
   },
   {
-    q: "O consumidor possui proteção legal contra fraudes?",
-    a: "A legislação consumerista prevê mecanismos de proteção ao consumidor em determinadas situações envolvendo falha na prestação de serviços."
+    q: "Como identificar descontos indevidos?",
+    a: "Extratos bancários e históricos previdenciários podem auxiliar na identificação de cobranças não reconhecidas."
   }
 ];
 
-const FAQ = () => {
+const Conteudo = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faq" style={{ position: 'relative', overflow: 'hidden' }}>
+    <section id="conteudo" style={{ position: 'relative', overflow: 'hidden', backgroundColor: '#0a0a0a' }}>
       <Decoration icon={HelpCircle} size={500} top="0" right="-10%" rotate={20} opacity={0.02} />
       <Decoration icon={MessageSquare} size={300} bottom="10%" left="-5%" rotate={-15} opacity={0.02} />
       <div className="container" style={{ maxWidth: '800px' }}>
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Dúvidas Frequentes</h2>
-          <p style={{ color: 'var(--text-muted)' }}>Respostas para as principais questões sobre Direito Bancário.</p>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Conteúdo Jurídico Informativo</h2>
+          <p style={{ color: 'var(--text-muted)' }}>Informações jurídicas com finalidade educativa e preventiva.</p>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -95,4 +95,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Conteudo;

@@ -29,27 +29,35 @@ const Office = () => {
               textTransform: 'uppercase',
               letterSpacing: '2px'
             }}>
-              Nossa Sede
+              Apresentação
             </div>
-            <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: '1.2' }}>Estrutura de Ponta em Chapadinha/MA</h2>
+            <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: '1.2' }}>Atendimento Jurídico Técnico e Individualizado</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-              Nosso escritório foi planejado para oferecer conforto e sigilo absoluto. Localizado estrategicamente em Chapadinha, contamos com ambientes climatizados e tecnologia de ponta para atendimentos presenciais e digitais.
+              Demandas envolvendo instituições financeiras exigem análise cuidadosa de contratos, documentos bancários e registros financeiros.
             </p>
 
             <div style={{ display: 'grid', gap: '1.5rem' }}>
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 <div style={{ width: '12px', height: '12px', backgroundColor: 'var(--accent)', borderRadius: '50%' }} />
-                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Sede Própria em Chapadinha/MA</span>
+                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Empréstimos consignados questionados</span>
               </div>
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 <div style={{ width: '12px', height: '12px', backgroundColor: 'var(--accent)', borderRadius: '50%' }} />
-                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Ambiente Climatizado e Privativo</span>
+                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Cobranças indevidas e fraudes eletrônicas</span>
               </div>
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 <div style={{ width: '12px', height: '12px', backgroundColor: 'var(--accent)', borderRadius: '50%' }} />
-                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Suporte para Atendimento 100% Digital</span>
+                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Negativações e registros no SCR/Registrato</span>
+              </div>
+              <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                <div style={{ width: '12px', height: '12px', backgroundColor: 'var(--accent)', borderRadius: '50%' }} />
+                <span style={{ color: 'var(--text-main)', fontSize: '1.1rem' }}>Responsabilidade civil bancária</span>
               </div>
             </div>
+
+            <p style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: '1.6', marginTop: '2.5rem' }}>
+              A atuação é pautada nos princípios da boa-fé, transparência e proteção do consumidor previstos na legislação brasileira.
+            </p>
           </motion.div>
 
           <motion.div

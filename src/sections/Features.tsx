@@ -1,26 +1,21 @@
 import { motion } from 'framer-motion';
-import { UserCheck, Calendar, GraduationCap, FileSearch } from 'lucide-react';
+import { UserCheck, GraduationCap, FileSearch } from 'lucide-react';
 
 const features = [
   {
-    title: "Atendimento direto",
-    desc: "Contato e acompanhamento realizados diretamente com o advogado.",
+    title: "Atuação Técnica",
+    desc: "Análise individualizada de cada situação apresentada.",
+    icon: <FileSearch size={32} />
+  },
+  {
+    title: "Atendimento Humanizado",
+    desc: "Comunicação clara e acompanhamento jurídico adequado ao caso concreto.",
     icon: <UserCheck size={32} />
   },
   {
-    title: "Experiência desde 2005",
-    desc: "Mais de 20 anos de atuação sólida na advocacia maranhense.",
-    icon: <Calendar size={32} />
-  },
-  {
-    title: "Especialização Bancária",
-    desc: "Atuação focada exclusivamente em problemas com instituições financeiras.",
+    title: "Produção de Conteúdo",
+    desc: "Compartilhamento de informações jurídicas com finalidade educativa e preventiva.",
     icon: <GraduationCap size={32} />
-  },
-  {
-    title: "Análise técnica",
-    desc: "Avaliação detalhada dos documentos e definição da estratégia estratégica.",
-    icon: <FileSearch size={32} />
   }
 ];
 
@@ -36,9 +31,9 @@ const Features = () => {
         }} className="features-grid">
           
           <div>
-            <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>Por que escolher nossa consultoria?</h2>
+            <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>Diferenciais da Nossa Atuação</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '2rem' }}>
-              Unimos tecnologia, experiência e um atendimento humanizado para garantir que seus direitos sejam respeitados perante as instituições financeiras.
+              Unimos conhecimento especializado e um atendimento focado na sua situação para garantir a melhor defesa contra as instituições financeiras.
             </p>
             <div style={{ width: '60px', height: '4px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
           </div>

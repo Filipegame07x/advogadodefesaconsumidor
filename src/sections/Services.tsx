@@ -1,56 +1,28 @@
 import { motion } from 'framer-motion';
 import { 
   ShieldAlert, 
-  CreditCard, 
   SearchX, 
-  TrendingDown, 
   HandCoins, 
   LockKeyhole,
-  Briefcase,
   Gavel
 } from 'lucide-react';
 import Decoration from '../components/Decoration';
 
 const services = [
   {
-    title: "Fraudes bancárias e golpes via PIX",
-    desc: "Análise de transferências não autorizadas e possíveis falhas de segurança da instituição.",
-    icon: <LockKeyhole size={32} />
-  },
-  {
-    title: "Empréstimos não contratados",
-    desc: "Verificação de descontos de empréstimos que o cliente não reconhece ou autorizou.",
+    title: "Empréstimo Consignado",
+    desc: "Análise jurídica de situações envolvendo descontos não reconhecidos, refinanciamentos questionados, margem consignável e contratos bancários.",
     icon: <HandCoins size={32} />
   },
   {
-    title: "Descontos indevidos em conta",
-    desc: "Identificação de cobranças ou débitos realizados sem autorização do consumidor.",
-    icon: <TrendingDown size={32} />
+    title: "Fraudes Bancárias e Digitais",
+    desc: "Atuação em demandas relacionadas a fraudes via PIX, golpes eletrônicos, uso indevido de dados e movimentações bancárias contestadas.",
+    icon: <LockKeyhole size={32} />
   },
   {
-    title: "Negativação indevida",
-    desc: "Análise de inscrição irregular do nome em órgãos de proteção ao crédito (SPC/Serasa).",
+    title: "Negativação e SCR/Registrato",
+    desc: "Avaliação jurídica de informações restritivas, registros bancários e impactos na concessão de crédito.",
     icon: <SearchX size={32} />
-  },
-  {
-    title: "Juros abusivos",
-    desc: "Verificação de encargos excessivos ou cláusulas prejudiciais em contratos bancários.",
-    icon: <TrendingDown size={32} />
-  },
-  {
-    title: "Venda casada",
-    desc: "Análise da exigência indevida de contratação de serviços vinculados ao crédito.",
-    icon: <Briefcase size={32} />
-  },
-  {
-    title: "Seguros não contratados",
-    desc: "Identificação de cobranças de seguros ou títulos de capitalização não autorizados.",
-    icon: <ShieldAlert size={32} />
-  },
-  {
-    title: "Abusos em Cartão de Crédito",
-    desc: "Defesa contra taxas abusivas e cobranças irregulares em faturas e limites.",
-    icon: <CreditCard size={32} />
   }
 ];
 

@@ -63,7 +63,7 @@ const Hero = () => {
             </div>
             
             <h1 style={{ marginBottom: '1.5rem', fontSize: '3.5rem' }}>
-              Está sofrendo com <span style={{ color: 'var(--accent)' }}>cobranças indevidas</span> ou fraudes bancárias?
+              Defesa Jurídica em <span style={{ color: 'var(--accent)' }}>Relações Bancárias</span> e do Consumidor
             </h1>
             
             <p style={{ 
@@ -72,16 +72,16 @@ const Hero = () => {
               marginBottom: '2.5rem',
               maxWidth: '600px'
             }} className="hero-desc">
-              Conte com um advogado especialista para garantir seus direitos com segurança jurídica. <span className="mobile-hide">Proteja seu patrimônio contra abusos das instituições financeiras.</span>
+              Atuação jurídica voltada à análise de situações envolvendo empréstimos consignados, descontos indevidos, negativações, fraudes bancárias e conflitos decorrentes da prestação de serviços financeiros.
             </p>
             
             <div style={{ display: 'flex', gap: '1rem' }} className="hero-btns">
               <a href="https://wa.me/5598984379642" target="_blank" rel="noreferrer" className="btn btn-primary">
                 <MessageCircle size={20} />
-                Falar com advogado no WhatsApp
+                Agendar Atendimento Jurídico
               </a>
               <a href="#servicos" className="btn btn-outline">
-                Conhecer Serviços
+                Áreas de Atuação
               </a>
             </div>
           </motion.div>

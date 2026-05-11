@@ -17,8 +17,9 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Início', href: '#' },
-    { name: 'Serviços', href: '#servicos' },
-    { name: 'O Advogado', href: '#sobre' },
+    { name: 'Áreas de Atuação', href: '#servicos' },
+    { name: 'Conteúdo Jurídico', href: '#conteudo' },
+    { name: 'Quem Somos', href: '#sobre' },
     { name: 'Contato', href: '#contato' },
   ];
 
@@ -49,9 +50,9 @@ const Header = () => {
               fontSize: '1.2rem',
               lineHeight: 1
             }}>
-              Audeson Costa
+              Carvalho e Costa
             </span>
-            <span style={{ fontSize: '0.7rem', color: 'var(--accent)', fontWeight: 600 }}>ADVOGADO</span>
+            <span style={{ fontSize: '0.7rem', color: 'var(--accent)', fontWeight: 600 }}>ADVOGADOS</span>
           </div>
         </div>
 
@@ -70,7 +71,7 @@ const Header = () => {
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <a href="https://wa.me/5598984379642" target="_blank" rel="noreferrer" className="btn btn-primary desktop-btn" style={{ padding: '0.5rem 1.25rem', fontSize: '0.85rem' }}>
-            Falar Agora
+            Agendar Atendimento
           </a>
           
           <button 
@@ -127,7 +128,7 @@ const Header = () => {
               className="btn btn-primary"
               style={{ textAlign: 'center' }}
             >
-              Falar no WhatsApp
+              Agendar Atendimento
             </a>
           </motion.div>
         )}

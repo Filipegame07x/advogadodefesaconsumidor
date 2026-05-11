@@ -8,6 +8,8 @@ import Footer from './sections/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import LaserDivider from './components/LaserDivider';
 import Office from './sections/Office';
+import Conteudo from './sections/Conteudo';
+import Contact from './sections/Contact';
 
 function App() {
   return (
@@ -16,13 +18,19 @@ function App() {
       <main>
         <Hero />
         <LaserDivider />
+        <Office />
+        <LaserDivider />
         <Services />
+        <LaserDivider />
+        <Conteudo />
         <LaserDivider />
         <Features />
         <LaserDivider />
         <About />
-        <Office />
+        <LaserDivider />
         <FAQ />
+        <LaserDivider />
+        <Contact />
       </main>
       <Footer />
       <WhatsAppButton />

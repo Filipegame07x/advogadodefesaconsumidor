@@ -59,11 +59,12 @@ const About = () => {
             </h2>
             
             <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', color: 'var(--text-main)' }}>
-              Advogado desde 2005 <strong>(OAB/MA 11.417)</strong>, com atuação focada em Direito do Consumidor Bancário, auxiliando clientes em situações envolvendo abusos e irregularidades praticadas por instituições financeiras.
+              Advogado – <strong>OAB/MA 11.417</strong>
             </p>
             
             <p style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>
-              Possui MBA em Direito Tributário e Gestão de Negócios, foi Presidente da OAB Subseção Chapadinha e é sócio do escritório Carvalho e Costa Advogados. Sua atuação é baseada na análise cuidadosa de documentos e provas, aplicação do Código de Defesa do Consumidor e definição de estratégias jurídicas adequadas.
+              Atuação voltada ao Direito do Consumidor Bancário, Direito Digital e Direito Previdenciário Rural.<br/><br/>
+              Desenvolve atividade jurídica relacionada à análise de contratos bancários, responsabilidade civil e proteção do consumidor.
             </p>
 
             <div style={{ 
